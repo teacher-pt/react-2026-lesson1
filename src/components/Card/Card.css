@@ -1,0 +1,9 @@
+.card {
+    border: 1px solid red;
+    margin: 5px;
+    padding: 5px;
+
+    h2 {
+        color: darkred;
+    }
+}
