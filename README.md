@@ -1,12 +1,49 @@
-# React + Vite
+# Lesson 1 — Props & JSX (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+A small starter project demonstrating React props and JSX syntax using Vite for development and fast refresh.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project structure
 
-## Expanding the ESLint configuration
+-   `index.html` — App entry
+-   `src/` — Source files
+    -   `main.jsx` — App bootstrap
+    -   `App.jsx` — Root component
+    -   `jsx-rules.jsx` — Notes and examples about JSX rules
+    -   `components/` — Reusable components (Header, Footer, Students, Card)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+
+Install dependencies and start the dev server:
+
+```bash
+npm install
+npm run dev
+```
+
+Open the app at the address shown in the terminal (usually `http://localhost:5173`).
+
+## Usage
+
+-   Edit components in `src/components/` to experiment with props and composition.
+-   Check `src/jsx-rules.jsx` for JSX-specific examples and gotchas.
+
+## Components
+
+-   `Header/Header.jsx` — Page header
+-   `Footer/Footer.jsx` — Page footer
+-   `Students.jsx` — Example list rendering with props
+-   `Card/Card.jsx` — Reusable card component with `Card.css`
+
+## Resources
+
+-   Official React docs: https://reactjs.org/
+-   Vite (dev server & build): https://vitejs.dev/
+-   JSX guide: https://reactjs.org/docs/introducing-jsx.html
+-   MDN — JavaScript reference: https://developer.mozilla.org/
+-   Local JSX notes: [src/jsx-rules.jsx](src/jsx-rules.jsx)
+
+## License
+
+This project is for learning purposes.
